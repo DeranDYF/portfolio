@@ -43,17 +43,20 @@ const HeroSection = () => {
                 </button>
                 <button className="px-1 py-1 rounded-lg mr-4 bg-gradient-to-br from-[#D16BA5] via-[#86A8E7] to-[#5FFBF1] font-bold hover:text-white">
                     <Link href="/dyfzn/deran-cv.pdf">
-                    <span className=" block bg-[#121212] hover:bg-slate-800 rounded-md px-2 py-1 lg:px-5 lg:py-2">Download CV</span>
+                    <span className="block bg-[#121212] hover:bg-slate-800 rounded-md px-2 py-1 lg:px-5 lg:py-2">Download CV</span>
                     </Link>
                     </button>
             </div>
             </div>
-            <div className="col-span-5 mt-6 lg:mt-0 ms-5">
-                <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative md:text-center">
+            <div className="hidden lg:block col-span-5 mt-5 lg:mt-0 ms-0 lg:ms-5 ">
+            <div className="flex justify-center h-screen">
+                <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative place-items-center">
                 <Image className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/2 w-[200px] lg:w-[300px]"
                 src="/dyfzn/ab1_copy.png" alt="my profile" width={300} height={300}
                 />
                 </div>
+            </div>
+
             </div>
         </div>
     </section>
