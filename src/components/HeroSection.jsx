@@ -29,10 +29,10 @@ const HeroSection = () => {
                     /></h3>
                 <p className="text-[#ADB7BE] text-sm lg:text-lg">A graduated majoring in informatics engineering who are interested, enthusiastic and capable in the field of web development both as full stack, backend and frontend. by using the PHP programming language as the main programming language in building or developing systems or applications. and also try exploring  JavaScript.</p>
             <div className="mt-4">
-                <button className="px-6 py-3 rounded-lg mr-4 bg-gradient-to-br from-[#D16BA5] via-[#86A8E7] to-[#5FFBF1] hover:bg-slate-200 text-gray-200 font-bold hover:text-white"><Link href="#mywork">See My Work</Link></button>
+                <button className="mb-2 lg:mb-0 px-3 py-2 lg:px-6 lg:py-3 rounded-lg mr-4 bg-gradient-to-br from-[#D16BA5] via-[#86A8E7] to-[#5FFBF1] hover:bg-slate-200 text-gray-200 font-bold hover:text-white"><Link href="#mywork">See My Work</Link></button>
                 <button className="px-1 py-1 rounded-lg mr-4 bg-gradient-to-br from-[#D16BA5] via-[#86A8E7] to-[#5FFBF1] font-bold hover:text-white">
                     <Link href="/dyfzn/deran-cv.pdf">
-                    <span className=" block bg-[#121212] hover:bg-slate-800 rounded-md px-5 py-2">Download CV</span>
+                    <span className=" block bg-[#121212] hover:bg-slate-800 rounded-md px-2 py-1 lg:px-5 lg:py-2">Download CV</span>
                     </Link>
                     </button>
             </div>
