@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import AboutSection from "@/components/AboutSection";
@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
+    
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <div className="lg:px-12 mb-12 py-8">
       <NavBar/>
